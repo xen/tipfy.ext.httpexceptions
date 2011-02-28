@@ -1,0 +1,19 @@
+# tipfy.ext.httpexceptions #
+
+Middleware extension allow to catch errors and show own page.
+
+## Setup ##
+
+To use this extension in your application follow few simple steps:
+
+- Add to buildout.cfg egg import
+- Modify config.py and add folowing lines:
+
+config['tipfy'] = {
+    'middleware': [
+        'tipfy.ext.httpexceptions.middleware.HTTPExceptionMiddleware',
+         # ... other middleware goes below
+    ],
+
+
+# 
