@@ -1,6 +1,6 @@
 # tipfy.ext.httpexceptions #
 
-Middleware extension allow to catch errors and show own page.
+Middleware extension allow to catch errors and show proper page.
 
 ## Setup ##
 
